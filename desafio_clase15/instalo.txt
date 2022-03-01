@@ -1,0 +1,5 @@
+1.	Inicializo proyecto  --> npm init -y
+2.	Instalo knex -->  npm i knex mysql
+3. instalo expres y socket --> npm install express socket.io
+4. Instalo sqlite3 -->npm i knex sqlite3
+5. instalar --> npm i @vscode/sqlite3
