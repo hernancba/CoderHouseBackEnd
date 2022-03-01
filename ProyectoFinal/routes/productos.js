@@ -52,4 +52,16 @@ router.put("/:id", (req, res)=> {
 
 })
 
+router.get('*', (req, res)=> {
+
+  let ruta= {...req.path};
+  let method = {...req.method};
+  res.send(`La ruta ${ruta} metodo ${method} no se encuentra implementada` ).status(404)
+
+
+})
+
+
+
+
 module.exports = router;

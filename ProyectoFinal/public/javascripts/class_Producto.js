@@ -76,9 +76,9 @@ module.exports = class class_Producto {
 
     agregarProducto(producto){
             if(this.validar(producto)){
-            let id = this.getMaxId(); //obtengo el máximo id del array de productos
-            id++; //sumo en 1 para asginar al nuevo producto            
-            producto.id = id; //asigno id al nuevo producto
+            let id = this.getMaxId(); //Obtengo el máximo id del [] de productos
+            id++; //Sumo en 1 para asginar al nuevoProducto            
+            producto.id = id; //Asigno id al nuevo producto
 
             let nuevoProducto={
 
@@ -115,9 +115,9 @@ module.exports = class class_Producto {
             let posicion = class_Producto.arrayProductos.findIndex(item=> item.id === id);
             //Si la posicion existe, se actualiza
             if( posicion > -1){
-                //borro producto actual (no modificado)
+                //Elimino producto actual
                 class_Producto.arrayProductos.splice(posicion,1);
-                //agrego producto modificado
+                //Agrego producto modificado
                 class_Producto.arrayProductos.push(
                     {   
                         id:producto.id,
