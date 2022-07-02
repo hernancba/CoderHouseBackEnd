@@ -1,0 +1,12 @@
+h1 {
+    color:#000080;
+}
+
+label {
+    font-weight: light;
+    font-style: normal;
+}
+
+.jumbotron {
+    min-height: 50vh;
+}

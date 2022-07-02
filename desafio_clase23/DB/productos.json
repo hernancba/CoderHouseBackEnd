@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Alicate",
+    "price": "450",
+    "thumbnail": "https://como-funciona.co/wp-content/uploads/2020/03/Alicate-herramienta.jpg",
+    "id": 1
+  },
+  {
+    "title": "Destornillador Philips",
+    "price": "300",
+    "thumbnail": "https://pimdatacdn.bahco.com/media/sub1058/16aa0ce3e5fbb23f.png",
+    "id": 2
+  },
+  {
+    "title": "Pinza de fuerza",
+    "price": "550",
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_557721-MLA20841059464_072016-O.jpg",
+    "id": 3
+  }
+]
